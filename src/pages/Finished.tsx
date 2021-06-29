@@ -7,7 +7,7 @@ interface Props {
     return (
       <div>
         <h1>
-          {name && `Player ${name} won the game`}
+          {name && ` ${name} won the game`}
           {!name && "It's a tie "}
         </h1>
         <button onClick={handleRestart}>Restart</button>
